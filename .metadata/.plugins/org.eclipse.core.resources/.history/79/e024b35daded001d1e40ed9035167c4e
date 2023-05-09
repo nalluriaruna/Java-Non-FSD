@@ -1,0 +1,13 @@
+
+import java.util.Scanner;
+public class CountRepeat {
+	public static void main(String args[]) {
+		
+		int size ,i,j, dup=0;
+		
+		 int[] dup_arr = new int[size];
+		 Scanner sc = new Scanner(System.in);
+		 System.out.println();
+	}
+
+}

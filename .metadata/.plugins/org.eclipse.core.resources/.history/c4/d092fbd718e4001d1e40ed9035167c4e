@@ -1,0 +1,20 @@
+package com.java;
+interface Mobile{
+	 public void PlayMusic();
+}
+
+class Phone implements Mobile{
+	
+	public void PlayMusic() {
+		System.out.println("music is playing");
+	}
+}
+
+public class Interface {
+	public static void main(String args[]) {
+		
+		Phone P = new Phone();
+		P.PlayMusic();
+	}
+
+}

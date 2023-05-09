@@ -1,0 +1,13 @@
+package com.java;
+
+public class Exception {
+	public static void main(String args[]) {
+		int i=0,j=0;
+	try {
+		j=20/i;
+	} catch (DivideByZero e) {
+		// TODO: handle exception
+	}
+	}
+
+}

@@ -1,0 +1,30 @@
+
+ class A
+ {
+ public int add1(int n1, int n2){
+   
+	 return n1+n2;
+   
+ 
+ }
+ }
+ 
+ class B extends A{
+ public int add1(int n1, int n2)
+ {
+	 return n1+n2+5;
+	 
+ }
+ }
+
+ 
+ public class MethodOverride{
+	 public static void main(String args[]) {
+		 
+		 B obj= new B();
+		 int m=obj.add1(9, 25);
+		 System.out.println(m);
+		
+				 
+	 }
+ }

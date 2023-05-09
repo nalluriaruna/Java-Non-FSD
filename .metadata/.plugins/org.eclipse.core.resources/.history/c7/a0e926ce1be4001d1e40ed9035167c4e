@@ -1,0 +1,25 @@
+package com.java;
+class Computer{
+	public void draw() {
+		System.out.println("use PAINT");
+	}
+}
+
+class Laptop extends Computer{
+	public void sing() {
+		System.out.println("use MUSIC PLAYER");
+	}
+}
+
+
+public class TypeCasting {
+	public static void main(String args[]) {
+	
+		// upcasting
+		
+		Computer comp = new Laptop();
+		comp.draw();
+		
+	}
+
+}

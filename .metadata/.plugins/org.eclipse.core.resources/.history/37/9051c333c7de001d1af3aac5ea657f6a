@@ -1,0 +1,25 @@
+
+ public class MaxMin {
+
+	private static int i;
+
+	public static void main(String args) {
+		int a[]= {6,22,31,17,5,45};
+  
+		
+		// to find maximum value 
+ 
+		int max=a[0];
+		for(int i=0;i<a.length;i++);
+		{
+			
+			
+			if(a[i]>max)
+			{
+				max = a[i];
+			}	
+       System.out.println( "maximum element is " +max);
+		}
+	}
+}
+
